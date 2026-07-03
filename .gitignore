@@ -3,6 +3,10 @@
 benchmark_*/.venv/
 env/
 venv/
+benchmark_deep/
+benchmark_exp/
+benchmark_heavy/
+benchmark_route/
 
 # --- Cloned benchmark fixture (73M Django clone; re-clone with git clone --depth 1) ---
 benchmark_heavy/bigrepo/
