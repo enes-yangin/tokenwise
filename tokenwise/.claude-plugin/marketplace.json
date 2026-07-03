@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "tokenwise",
+  "description": "Maximum quality per token. A lean-agent mode plus plan-critique, root-cause debug, TDD, and atomic-commit skills.",
+  "owner": {
+    "name": "Enes"
+  },
+  "plugins": [
+    {
+      "name": "tokenwise",
+      "description": "Persistent token-discipline mode (read surgically, recall don't re-derive, build lean, never guess) bundled with plan-critique, py-debug, tdd, and git-commit skills.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

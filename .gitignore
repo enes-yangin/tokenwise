@@ -1,0 +1,44 @@
+# --- Python virtualenv (49M, regenerate with: python -m venv .venv) ---
+.venv/
+benchmark_*/.venv/
+env/
+venv/
+
+# --- Cloned benchmark fixture (73M Django clone; re-clone with git clone --depth 1) ---
+benchmark_heavy/bigrepo/
+
+# --- Python caches & build ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Test / coverage artifacts ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# --- SQLite databases produced by benchmark runs ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Scratch / timing files generated during benchmarks ---
+timings*.env
+
+# --- Node / frontend build (crypto_portfolio/frontend) ---
+node_modules/
+dist/
+.vite/
+
+# --- Editors / OS ---
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+.claude/

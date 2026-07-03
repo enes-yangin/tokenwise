@@ -1,0 +1,9 @@
+{
+  "name": "tokenwise",
+  "version": "0.1.0",
+  "description": "Maximum quality per token. A persistent lean-agent mode plus plan-critique, root-cause debug, TDD, and atomic-commit skills — read surgically, recall don't re-derive, build the minimum that works, never guess. Forces token discipline without sacrificing correctness, validation, or security.",
+  "author": {
+    "name": "Enes"
+  },
+  "hooks": "./hooks/tokenwise-hooks.json"
+}
